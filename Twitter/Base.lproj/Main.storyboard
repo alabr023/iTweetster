@@ -19,7 +19,11 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0QX-Ld-you">
                                 <rect key="frame" x="114.5" y="421" width="185" height="54"/>
+<<<<<<< HEAD
                                 <color key="backgroundColor" red="0.29885983469999999" green="0.62303608659999998" blue="0.92160421609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+=======
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+>>>>>>> 6ef7e1f (added missing files)
                                 <constraints>
                                     <constraint firstAttribute="width" constant="185" id="1xR-E9-18c"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="185" id="6hQ-Bv-lcR"/>
@@ -52,7 +56,11 @@
             </objects>
             <point key="canvasLocation" x="-191" y="-14"/>
         </scene>
+<<<<<<< HEAD
         <!--Home-->
+=======
+        <!--Home Table View Controller-->
+>>>>>>> 6ef7e1f (added missing files)
         <scene sceneID="Kr0-Tv-ZAf">
             <objects>
                 <tableViewController id="pIL-1p-6R6" customClass="HomeTableViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
@@ -61,11 +69,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
+<<<<<<< HEAD
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tweetCell" rowHeight="200" id="kGR-Ta-D1V" customClass="TweetCell" customModule="Twitter" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="50" width="414" height="200"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kGR-Ta-D1V" id="PrY-DT-04y">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+=======
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tweetCell" rowHeight="120" id="kGR-Ta-D1V" customClass="TweetCell" customModule="Twitter" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="50" width="414" height="120"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kGR-Ta-D1V" id="PrY-DT-04y">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+>>>>>>> 6ef7e1f (added missing files)
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qdl-rA-x5D">
@@ -89,11 +105,16 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOS-wr-fEn">
+<<<<<<< HEAD
                                             <rect key="frame" x="93" y="37" width="301" height="102"/>
+=======
+                                            <rect key="frame" x="93" y="37" width="301" height="72"/>
+>>>>>>> 6ef7e1f (added missing files)
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+<<<<<<< HEAD
                                         <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILm-y5-hS4" userLabel="likeButton">
                                             <rect key="frame" x="354" y="149" width="30" height="30"/>
                                             <constraints>
@@ -123,11 +144,17 @@
                                         <constraint firstItem="ILm-y5-hS4" firstAttribute="top" secondItem="WOS-wr-fEn" secondAttribute="bottom" constant="10" id="3WS-BN-SGQ"/>
                                         <constraint firstItem="WOS-wr-fEn" firstAttribute="leading" secondItem="Qdl-rA-x5D" secondAttribute="trailing" constant="8" id="FtJ-rM-W2c"/>
                                         <constraint firstItem="ILm-y5-hS4" firstAttribute="leading" secondItem="8xz-1K-H1r" secondAttribute="trailing" constant="10" id="Ixr-jS-VSt"/>
+=======
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="WOS-wr-fEn" firstAttribute="leading" secondItem="Qdl-rA-x5D" secondAttribute="trailing" constant="8" id="FtJ-rM-W2c"/>
+>>>>>>> 6ef7e1f (added missing files)
                                         <constraint firstAttribute="trailingMargin" secondItem="WOS-wr-fEn" secondAttribute="trailing" id="JPb-AA-3ty"/>
                                         <constraint firstItem="LwC-QA-hGQ" firstAttribute="leading" secondItem="Qdl-rA-x5D" secondAttribute="trailing" constant="8" id="NfZ-xT-h8i"/>
                                         <constraint firstItem="Qdl-rA-x5D" firstAttribute="top" secondItem="PrY-DT-04y" secondAttribute="topMargin" id="ObW-hM-D3P"/>
                                         <constraint firstItem="LwC-QA-hGQ" firstAttribute="top" secondItem="PrY-DT-04y" secondAttribute="topMargin" id="Pod-tD-jum"/>
                                         <constraint firstItem="WOS-wr-fEn" firstAttribute="top" secondItem="LwC-QA-hGQ" secondAttribute="bottom" constant="4" id="XY4-5H-T6X"/>
+<<<<<<< HEAD
                                         <constraint firstAttribute="bottomMargin" secondItem="8xz-1K-H1r" secondAttribute="bottom" constant="10" id="aaN-Lm-MtU"/>
                                         <constraint firstItem="WOS-wr-fEn" firstAttribute="leading" secondItem="Qdl-rA-x5D" secondAttribute="trailing" constant="8" id="dHL-Wo-q5K"/>
                                         <constraint firstItem="8xz-1K-H1r" firstAttribute="top" secondItem="WOS-wr-fEn" secondAttribute="bottom" constant="10" id="dvf-h3-KZA"/>
@@ -142,6 +169,17 @@
                                     <outlet property="likeButton" destination="ILm-y5-hS4" id="Jdu-6N-t6z"/>
                                     <outlet property="profileImageView" destination="Qdl-rA-x5D" id="fuF-dJ-NmF"/>
                                     <outlet property="retweetButton" destination="8xz-1K-H1r" id="e9F-J0-ZIc"/>
+=======
+                                        <constraint firstAttribute="bottomMargin" secondItem="WOS-wr-fEn" secondAttribute="bottom" id="adP-HQ-aMQ"/>
+                                        <constraint firstItem="WOS-wr-fEn" firstAttribute="leading" secondItem="Qdl-rA-x5D" secondAttribute="trailing" constant="8" id="dHL-Wo-q5K"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="LwC-QA-hGQ" secondAttribute="trailing" constant="20" symbolic="YES" id="eQS-Pq-eTK"/>
+                                        <constraint firstItem="Qdl-rA-x5D" firstAttribute="leading" secondItem="PrY-DT-04y" secondAttribute="leadingMargin" id="jPU-tj-HSg"/>
+                                        <constraint firstItem="LwC-QA-hGQ" firstAttribute="top" secondItem="PrY-DT-04y" secondAttribute="topMargin" id="qy8-nG-HT2"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="profileImageView" destination="Qdl-rA-x5D" id="fuF-dJ-NmF"/>
+>>>>>>> 6ef7e1f (added missing files)
                                     <outlet property="tweetContent" destination="WOS-wr-fEn" id="agk-wJ-AbM"/>
                                     <outlet property="userNameLabel" destination="LwC-QA-hGQ" id="vby-q0-lNZ"/>
                                 </connections>
@@ -152,19 +190,26 @@
                             <outlet property="delegate" destination="pIL-1p-6R6" id="X95-CP-X57"/>
                         </connections>
                     </tableView>
+<<<<<<< HEAD
                     <navigationItem key="navigationItem" title="Home" id="4Ax-yR-tSY">
+=======
+                    <navigationItem key="navigationItem" id="4Ax-yR-tSY">
+>>>>>>> 6ef7e1f (added missing files)
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="Aso-9D-1ms">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="onLogout:" destination="pIL-1p-6R6" id="N9k-XF-a91"/>
                             </connections>
                         </barButtonItem>
+<<<<<<< HEAD
                         <barButtonItem key="rightBarButtonItem" title="Tweet" style="plain" id="J4H-Al-nw6">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="ACp-8j-sm1" kind="presentation" id="Maj-9i-5RL"/>
                             </connections>
                         </barButtonItem>
+=======
+>>>>>>> 6ef7e1f (added missing files)
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N2E-8A-yT6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -179,10 +224,17 @@
                         <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <navigationBarAppearance key="standardAppearance">
+<<<<<<< HEAD
                             <color key="backgroundColor" red="0.29885983469999999" green="0.62303608659999998" blue="0.92160421609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         </navigationBarAppearance>
                         <navigationBarAppearance key="scrollEdgeAppearance">
                             <color key="backgroundColor" red="0.29885983469999999" green="0.62303608659999998" blue="0.92160421609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+=======
+                            <color key="backgroundColor" systemColor="linkColor"/>
+                        </navigationBarAppearance>
+                        <navigationBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" systemColor="linkColor"/>
+>>>>>>> 6ef7e1f (added missing files)
                         </navigationBarAppearance>
                     </navigationBar>
                     <connections>
@@ -193,6 +245,7 @@
             </objects>
             <point key="canvasLocation" x="751" y="-3"/>
         </scene>
+<<<<<<< HEAD
         <!--Tweet View Controller-->
         <scene sceneID="ttO-8Q-4oO">
             <objects>
@@ -272,9 +325,21 @@
         <image name="retweet-icon" width="30" height="30"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+=======
+    </scenes>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+>>>>>>> 6ef7e1f (added missing files)
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
+<<<<<<< HEAD
+=======
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+>>>>>>> 6ef7e1f (added missing files)
     </resources>
 </document>

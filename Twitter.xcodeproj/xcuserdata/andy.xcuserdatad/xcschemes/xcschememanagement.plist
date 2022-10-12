@@ -7,6 +7,7 @@
 		<key>Twitter.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>0</integer>
 		</dict>
 	</dict>
@@ -16,6 +17,9 @@
 		<dict>
 			<key>primary</key>
 			<true/>
+=======
+			<integer>1</integer>
+>>>>>>> 6ef7e1f (added missing files)
 		</dict>
 	</dict>
 </dict>
